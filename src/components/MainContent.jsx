@@ -2,7 +2,7 @@ import About from "./About";
 // import frameImage from "../assets/img/Frame570.png";
 import Frame from "../assets/Frame 530.svg";
 import portraitWoman from "../assets/Corporatewoman.svg";
-// import smilingBusinessman from "../assets/Smilingbusinessman.svg";
+import Man from "../assets/SmilingMan.svg";
 import Frame1 from "../assets/Frame 535.svg";
 import Layer from "../assets/Layer 01.svg";
 import Hand from "../assets/Hands1.svg";
@@ -17,8 +17,13 @@ const MainContent = () => {
       <About />
       <div className=" md:px-28 max-sm:px-2">
         <div className=" flex justify-between mt-6">
-          <div className="image1 small-s md:w-1/2">
+          <div className="image1 small-s md:w-1/2 relative">
             <img className="h-300" src={Frame} alt="Image 1" />
+            <div className="mr-auto w-2/3 text-center mx-4  my-2 absolute -bottom-6 ">
+              <p className="bg-neutral-300 p-2 mr-1 rounded-lg ">
+                SEPA Instant, SEPA & SWIFT
+              </p>
+            </div>
           </div>
           <div className="image2 md:w-1/2 small-s rounded-lg">
             <img
@@ -26,14 +31,19 @@ const MainContent = () => {
               src={portraitWoman}
               alt="Image 2"
             />
+            <div className="mr-auto w-2/3 text-center mx-4  my-2 absolute -bottom-6 ">
+              <p>Customer portal for live transaction monitoring</p>
+            </div>
           </div>
         </div>
         <div className="flex border-green-600 border-2 mt-6 pt-6 justify-end">
           <div className="mt-4 rounded-lg h-300 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% px-6">
-            {/* <img className="-mt-14" src={smilingBusinessman} alt="Image 3" /> */}
+            <img className="-mt-14" src={Man} alt="Image 3" />
+            <p>Danish FSA regulated</p>
           </div>
           <div className="bg-white border-4 rounded-md border-green-50 mx-12 mt-4">
             <img className="h-300 pt-10 px-10" src={Frame1} alt="Image 4" />
+            <p>90+ currencies served</p>
           </div>
         </div>
         <div className="flex justify-end m-6">
