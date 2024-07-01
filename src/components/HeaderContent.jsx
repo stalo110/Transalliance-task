@@ -2,8 +2,8 @@ import Frame from "../assets/Frame1.svg";
 
 const HeaderContent = () => {
   return (
-    <div className="header-content md:flex max-sm: w-full item-center align-middle justify-between">
-      <div className=" md:px-32 max-sm:px-2 mt-3 items-center max-sm: w-full">
+    <div className="flex justify-center">
+      <div className=" flex flex-col justify-center mr-40">
         <p className="text-sm text-yellow-300">
           Simplified cross-border payment
         </p>
@@ -16,11 +16,9 @@ const HeaderContent = () => {
           to thrive. Together, we make money move.
         </p>
       </div>
-      <div className="md: px-24 max-sm: px-2 relative max-sm: w-full">
-        <img className="h-300 pr-24" src={Frame} alt="Header" />
-        <div className="border-body bg-neutral-300 p-1 rounded-md absolute top-12 -left-3">
-          24/7, 365 transaction tracking
-        </div>
+      <div className=" flex flex-col items-center relative">
+        <img className="h-300" src={Frame} alt="Header" />
+        <p className="absolute bg-yellow-400 top-60 p-2 rounded-lg -left-20">24/7, 365 transaction tracking</p>
       </div>
     </div>
   );

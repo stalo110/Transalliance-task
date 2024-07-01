@@ -1,20 +1,26 @@
 import HeaderContent from "./HeaderContent";
 import Discover from "../assets/DiscoverMore.svg";
+import Navbar from "./Navbar";
+import Logo from "../assets/Frame 570logo.svg";
 
 const Header = () => {
   return (
     <>
-      <HeaderContent />
-      <header className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
-        <div className="discoverimage h-150 relative">
-          <p className="bg-gray-500 discover w-460 absolute left-44 h-16 flex justify-center rounded-lg py-3 text-xl text-white">
-            Discover More{" "}
-            <img className="h-8 ml-10" src={Discover} alt="Discover More" />
+      <header className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% mt-[0px]">
+        <Navbar />
+        <HeaderContent />
+        <div className=" relative">
+          <p className=" w-1/5 absolute left-60 -top-6 p-4  bg-gray-500 text-center rounded-lg">
+            Discover More
           </p>
-          <div className="absolute bottom-0 px-24 w-full items-start">
-            <p className="send rounded-t-md h-16 px-3 py-2">
-              Send and Receive Money from all <br /> over with ease
+          <img className="Image1" src={Discover} alt="Discover More" />
+          <div className=" px-32 ">
+            <p className="bg-white rounded-t-lg py-4 px-2">
+              Send and Receive Money from all over with ease.
             </p>
+          </div>
+          <div className="bg-white  px-32 ">
+            <img className="shadow-lg bg-white-500" src={Logo} alt="" />
           </div>
         </div>
       </header>

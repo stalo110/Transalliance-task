@@ -14,6 +14,9 @@ export const theme = {
       "30px": "30px",
       "91.3px": "91.3px",
     },
+    height: {
+      "300px": "300px",
+    },
   },
 };
 export const plugins = [];
