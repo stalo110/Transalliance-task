@@ -1,4 +1,3 @@
-// import Icon from "../assets/Chevronicon.svg";
 import Image from "../assets/Image20.svg";
 import Button from "./Button";
 
