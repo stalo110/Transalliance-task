@@ -1,16 +1,16 @@
-import ContactForm from "./components/ContactForm";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import MainContent from "./components/MainContent";
 import "./App.css";
+import Session1 from "./components/pages/Session1";
+import Session4 from "./components/pages/Session4";
+import Session5 from "./components/pages/Session5";
+import Session6 from "./components/pages/Session6";
 
 function App() {
   return (
     <>
-      <Header />
-      <MainContent />
-      <ContactForm />
-      <Footer />
+      <Session1 />
+      <Session4 />
+      <Session5 />
+      <Session6 />
     </>
   );
 }

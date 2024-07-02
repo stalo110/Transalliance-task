@@ -1,14 +1,14 @@
-import HeaderContent from "./HeaderContent";
-import Discover from "../assets/DiscoverMore.svg";
+import Discover from "../../assets/DiscoverMore.svg";
 import Navbar from "./Navbar";
-import Logo from "../assets/Frame 570logo.svg";
+import Logo from "../../assets/Frame 570logo.svg";
+import Session2 from "./Session2";
 
-const Header = () => {
+const Session1 = () => {
   return (
     <>
       <header className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% mt-[0px]">
         <Navbar />
-        <HeaderContent />
+        <Session2 />
         <div className=" relative">
           <p className=" w-1/5 absolute left-60 -top-6 p-4  bg-gray-500 text-center rounded-lg">
             Discover More
@@ -28,4 +28,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Session1;

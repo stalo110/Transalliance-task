@@ -1,7 +1,7 @@
-import Image from "../assets/Image20.svg";
-import Button from "./Button";
+import Image from "../../assets/Image20.svg";
+import Button from "../Button";
 
-const ContactForm = () => {
+const Session5 = () => {
   return (
     <div className="flex flex-col bg-gray-50 md:flex-row py-10 px-4">
       <div className="flex justify-center md:justify-start md:w-1/2">
@@ -85,4 +85,4 @@ const ContactForm = () => {
   );
 };
 
-export default ContactForm;
+export default Session5;

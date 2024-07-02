@@ -1,4 +1,4 @@
-const About = () => {
+const Session3 = () => {
   return (
     <div className="about mt-10 md:px-28 max-sm:px-2  ">
       <div className="flex justify-between">
@@ -27,4 +27,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Session3;

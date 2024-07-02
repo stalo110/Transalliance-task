@@ -1,6 +1,6 @@
-import Frame from "../assets/Frame1.svg";
+import Frame from "../../assets/Frame1.svg";
 
-const HeaderContent = () => {
+const Session2 = () => {
   return (
     <div className="flex justify-center">
       <div className=" flex flex-col justify-center mr-40">
@@ -18,10 +18,12 @@ const HeaderContent = () => {
       </div>
       <div className=" flex flex-col items-center relative">
         <img className="h-300" src={Frame} alt="Header" />
-        <p className="absolute bg-yellow-400 top-60 p-2 rounded-lg -left-20">24/7, 365 transaction tracking</p>
+        <p className="absolute bg-yellow-400 top-60 p-2 rounded-lg -left-20">
+          24/7, 365 transaction tracking
+        </p>
       </div>
     </div>
   );
 };
 
-export default HeaderContent;
+export default Session2;
