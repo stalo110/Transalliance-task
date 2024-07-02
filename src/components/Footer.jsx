@@ -1,4 +1,3 @@
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Frame from "../assets/Frame 01.svg";
 import Button from "./Button";
 import { LiaFacebook, LiaTwitter, LiaInstagram } from "react-icons/lia";
