@@ -1,74 +1,65 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
-import Frame from "../assets/Frame 01.svg"
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Frame from "../assets/Frame 01.svg";
+import Button from "./Button";
+import { LiaFacebook, LiaTwitter, LiaInstagram } from "react-icons/lia";
 
 const Footer = () => {
   return (
-    <footer className="bg-custom-blue text-gray-300 py-8 font-dm-sans text-20px leading-30px">
-         <div className="flex items-center">
-          <img src={Frame} alt="Logo" className="h-10 mr-4" />
-          <p>Transalliance Group.</p>
+    <div className="flex flex-col p-8 pl-40">
+      <div className="flex flex-col md:flex-row justify-between mb-8">
+        <div className="flex flex-col mb-8 md:mb-0">
+          <div className="flex items-center mb-4">
+            <img src={Frame} alt="logo" className="w-12 h-12 mr-2" />
+            <div className="text-xl font-semibold">Transalliance Group</div>
+          </div>
+          <Button className="mr-20 my-10">Contact Us</Button>
         </div>
-      <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
-        <div>
-          <h2 className="text-xl font-bold mb-4">Offices</h2>
-          <ul className="space-y-2">
-            <li>Denmark:</li>
-            <li>Toldbodgade 55B</li>
-            <li>1253, Copenhagen</li>
-            <li>United Kingdom:</li>
-            <br/>
-            <li>1 Poultry</li>
-            <li>EC2R 8EJ, London</li>
-            <li>info@inpay.com</li>
-            <li>Phone: +45 88610 610</li>
-          </ul>
+        <div className="flex flex-col mb-8 md:mb-0">
+          <div className="text-xl font-semibold mb-4">Offices</div>
+          <div>
+            <p>Denmark:</p>
+            <p>Toldbodgade 55B</p>
+            <p>1253, Copenhagen</p>
+            <p>United Kingdom:</p>
+          </div>
+          <div className="mt-5">
+            <p>1 Poultry</p>
+            <p>EC2R 8EJ, London</p>
+            <p>info@inpay.com</p>
+            <p>Phone: +45 88 610 600</p>
+          </div>
         </div>
-        <div>
-          <h2 className="text-xl font-bold mb-4">Solution</h2>
-          <ul className="space-y-2">
-            <li><a href="#" className="hover:text-blue-300">Money Out</a></li>
-            <li><a href="#" className="hover:text-blue-300">Money In</a></li>
-          </ul>
+        <div className="flex flex-col mb-8 md:mb-0">
+          <div className="text-xl font-semibold mb-4">Solutions</div>
+          <div>Money Out</div>
+          <div>Money In</div>
         </div>
-        <div>
-          <h2 className="text-xl font-bold mb-4">Sectors</h2>
-          <ul className="space-y-2">
-            <li><a href="#" className="hover:text-blue-300">Financial Service</a></li>
-            <li><a href="#" className="hover:text-blue-300">iGaming</a></li>
-            <li><a href="#" className="hover:text-blue-300">Corporates</a></li>
-            <li><a href="#" className="hover:text-blue-300">NGOs</a></li>
-          </ul>
+        <div className="flex flex-col mb-8 md:mb-0">
+          <div className="text-xl font-semibold mb-4">Sectors</div>
+          <div>Financial services</div>
+          <div>iGaming</div>
+          <div>Corporates</div>
+          <div>NGOs</div>
         </div>
-        <div>
-          <h2 className="text-xl font-bold mb-4">Other</h2>
-          <ul className="space-y-2">
-            <li><a href="#" className="hover:text-blue-300">About Us</a></li>
-            <li><a href="#" className="hover:text-blue-300">News & Insights</a></li>
-            <li><a href="#" className="hover:text-blue-300">Compliance</a></li>
-            <li><a href="#" className="hover:text-blue-300">Careers</a></li>
-            <li><a href="#" className="hover:text-blue-300">Contact Us</a></li>
-          </ul>
+        <div className="flex flex-col">
+          <div className="text-xl font-semibold mb-4">Other</div>
+          <div>About Us</div>
+          <div>News & Insights</div>
+          <div>Compliance</div>
+          <div>Careers</div>
+          <div>Contact us</div>
         </div>
       </div>
-      <div className="flex justify-center">
-        <hr className="my-8 border-gray-500 w-3/4" />
-      </div>
-      <div className="container mx-auto px-4 flex justify-end space-x-4">
-       
-        <h6>Social Media</h6>
-        
-        <a href="#" className="text-gray-300 hover:text-blue-300">
-          <FontAwesomeIcon icon={faFacebookF} />
-        </a>
-        <a href="#" className="text-gray-300 hover:text-blue-300">
-          <FontAwesomeIcon icon={faTwitter} />
-        </a>
-        <a href="#" className="text-gray-300 hover:text-blue-300">
-          <FontAwesomeIcon icon={faInstagram} />
-        </a>
+      <hr className="my-4 border-gray-300" />
+      <div className="flex flex-col self-end mr-5">
+        <div className="text-xl font-semibold mb-4">Social Media</div>
+        <div className="flex space-x-4">
+          <LiaFacebook className="w-8 h-8" />
+          <LiaTwitter className="w-8 h-8" />
+          <LiaInstagram className="w-8 h-8" />
         </div>
-    </footer>
+      </div>
+    </div>
   );
 };
 
