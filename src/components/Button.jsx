@@ -1,5 +1,5 @@
 import { IoIosArrowDroprightCircle } from "react-icons/io";
- 
+
 const Button = ({ children, type = "button", className }) => {
   return (
     <button
@@ -8,7 +8,7 @@ const Button = ({ children, type = "button", className }) => {
     >
       <div className="flex">
         {children}
-        <IoIosArrowDroprightCircle className="text-2xl ml-5"/>
+        <IoIosArrowDroprightCircle className="text-2xl ml-5" />
       </div>
     </button>
   );

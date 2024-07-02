@@ -15,19 +15,19 @@ const Navbar = () => {
           <img src={Frame} alt="Logo" className="h-10 mr-4" />
         </div>
         <div className="hidden md:flex space-x-4 items-center">
-          <a href="#" className="text-gray-700 hover:text-blue-500">
+          <a href="#" className="text-white hover:text-blue-500">
             Home
           </a>
-          <a href="#" className="text-gray-700 hover:text-blue-500">
+          <a href="#" className="text-white hover:text-blue-500">
             About
           </a>
-          <a href="#" className="text-gray-700 hover:text-blue-500">
+          <a href="#" className="text-white hover:text-blue-500">
             Solutions
           </a>
-          <a href="#" className="text-gray-700 hover:text-blue-500">
+          <a href="#" className="text-white hover:text-blue-500">
             News & Insights
           </a>
-          <a href="#" className="text-gray-700 hover:text-blue-500">
+          <a href="#" className="text-white hover:text-blue-500">
             Contact Us
           </a>
           <a
@@ -65,16 +65,16 @@ const Navbar = () => {
             <a href="#" className="block text-gray-700 hover:text-blue-500">
               Home
             </a>
-            <a href="#" className="block text-gray-700 hover:text-blue-500">
+            <a href="#" className="block text-white hover:text-blue-500">
               About
             </a>
-            <a href="#" className="block text-gray-700 hover:text-blue-500">
+            <a href="#" className="block text-white hover:text-blue-500">
               Solutions
             </a>
-            <a href="#" className="block text-gray-700 hover:text-blue-500">
+            <a href="#" className="block text-white hover:text-blue-500">
               News & Insights
             </a>
-            <a href="#" className="block text-gray-700 hover:text-blue-500">
+            <a href="#" className="block text-white hover:text-blue-500">
               Contact Us
             </a>
             <a

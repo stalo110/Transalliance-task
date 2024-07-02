@@ -13,7 +13,7 @@ const Break = () => {
               dedication to solving our customers’ most complex cross-border
               payments challenges.
             </p>
-            <Button className="bg-yellow-500 my-10">learn more</Button>
+            <Button className="bg-yellow-400 my-10">learn more</Button>
           </div>
         </div>
         <div className="flex-1">

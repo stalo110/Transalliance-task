@@ -5,18 +5,14 @@ import Frame from "../assets/Frame 530.svg";
 import portraitWoman from "../assets/Corporatewoman.svg";
 import Man from "../assets/SmilingMan.svg";
 import Frame1 from "../assets/Frame 535.svg";
-// import Layer from "../assets/Frame 524laptop.svg";
 import Hand from "../assets/Hands1.svg";
 import Star from "../assets/Star2.svg";
 import Key from "../assets/Key.svg";
 import Human from "../assets/Human.svg";
-import Image from "../assets/imageTab.svg";
-import Icon from "../assets/Chevronicon.svg";
 import House from "../assets/House.svg";
 import Library from "../assets/Library.svg";
 import Computer from "../assets/Computer.svg";
 import Field from "../assets/Field.svg";
-import Frame2 from "../assets/Frame 575.svg";
 import Break from "./Break";
 import Break1 from "./Break1";
 import Break2 from "./Break2";
@@ -30,8 +26,8 @@ const MainContent = () => {
         <div className=" flex justify-between mt-6">
           <div className="image1 small-s md:w-1/2 relative">
             <img className="h-300" src={Frame} alt="Image 1" />
-            <div className="mr-auto w-2/3 text-center mx-4  my-2 absolute -bottom-6 ">
-              <p className="bg-white p-2 mr-1 rounded-lg ">
+            <div className=" bg-red-500 mr-auto text-center mx-4 my-2 absolute -bottom-2">
+              <p className="bg-white p-2 mr-1 rounded-lg">
                 SEPA Instant, SEPA & SWIFT
               </p>
             </div>
@@ -56,27 +52,19 @@ const MainContent = () => {
               Danish FSA regulated
             </p>
           </div>
-          <div className="bg-white   mx-12 mt-4">
+          <div className="bg-white mx-12 mt-4">
             <img className="h-300 pt-10 px-10" src={Frame1} alt="Image 4" />
             <p>90+ currencies served</p>
           </div>
         </div>
         <div className="flex justify-end m-6">
-          {/* <button className="flex bg-green-700 rounded-lg items-center mr-8">
-            <p className="mx-2">Learn More</p>
-            <img
-              className="h-5 m-2 rounded-3xl bg-green-400"
-              src={Icon}
-              alt="Learn More"
-            />
-          </button> */}
           <Button />
         </div>
         <div className="flex">
           <Break />
         </div>
         <div className="flex mt-5">
-          <div className="flex flex-col">
+          <div className="flex flex-col p-20">
             <div className="mt-2 p-2">
               <img className=" h-16 w-16" src={Hand} alt="Back" />
               <h1 className="text-xl p-2">We are your trusted partner</h1>
@@ -118,7 +106,8 @@ const MainContent = () => {
             </div>
           </div>
           <div className="ml-10">
-            <div>
+            <div className="mr-14">
+              <p>OUR SERVICE</p>
               <h1 className="text-2xl">
                 The Transalliance Group.
                 <br /> difference
@@ -128,9 +117,8 @@ const MainContent = () => {
                 transparent customer relationships, and leading-edge technology.
               </p>
             </div>
-            <div className="flex mt-16 mb-10">
-              <div className="relative">
-                {" "}
+            <div className="flex mt-16 mb-10 mr-16">
+              <div className="relative ">
                 <img
                   className=" mt-0 rounded-md"
                   src={frameImage}
@@ -154,14 +142,6 @@ const MainContent = () => {
           </div>
         </div>
         <div className="relative mt-10 flex">
-          {/* <div className="">
-            <img
-              className=" bg-gradient-to-r from-emerald-500 from-1% via-blue-950 via-30% to-blue-950 via-9% rounded-r-2xl p-20 "
-              src={Image}
-              alt="Image 7"
-            />
-            <img src={Frame2} alt="" className="absolute top-3 h-10 left-6" />
-          </div> */}
           <Break1 />
         </div>
       </div>
@@ -207,15 +187,6 @@ const MainContent = () => {
           </div>
         </div>
       </div>
-      {/* <div className=" mt-20 flex flex-col items-center pt-20 bg bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% rounded-lg  ">
-        <div className="text-center">
-          <h1 className="text-4xl bold mb-8">2023 Annual Report</h1>
-          <p className="mx-28 text-center">
-            Click below to read more about Inpay’s impressive year-on- <br />
-            year growth and to download the full report.
-          </p>
-        </div>
-      </div> */}
       <Break2 />
     </main>
   );
