@@ -1,8 +1,8 @@
-import Frame from "../assets/Frame 01.svg";
-import Button from "./Button";
+import Frame from "../../assets/Frame 01.svg";
+import Button from "../Button";
 import { LiaFacebook, LiaTwitter, LiaInstagram } from "react-icons/lia";
 
-const Footer = () => {
+const Session6 = () => {
   return (
     <div className="flex flex-col p-8 pl-40">
       <div className="flex flex-col md:flex-row justify-between mb-8">
@@ -62,4 +62,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Session6;

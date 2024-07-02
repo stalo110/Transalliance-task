@@ -1,27 +1,27 @@
-import About from "./About";
-import frameImage from "../assets/Frame 555.svg";
-import frameImage1 from "../assets/Frame 560crop.png";
-import Frame from "../assets/Frame 530.svg";
-import portraitWoman from "../assets/Corporatewoman.svg";
-import Man from "../assets/SmilingMan.svg";
-import Frame1 from "../assets/Frame 535.svg";
-import Hand from "../assets/Hands1.svg";
-import Star from "../assets/Star2.svg";
-import Key from "../assets/Key.svg";
-import Human from "../assets/Human.svg";
-import House from "../assets/House.svg";
-import Library from "../assets/Library.svg";
-import Computer from "../assets/Computer.svg";
-import Field from "../assets/Field.svg";
-import Break from "./Break";
-import Break1 from "./Break1";
-import Break2 from "./Break2";
-import Button from "./Button";
+import frameImage from "../../assets/Frame 555.svg";
+import frameImage1 from "../../assets/Frame 560crop.png";
+import Frame from "../../assets/Frame 530.svg";
+import portraitWoman from "../../assets/Corporatewoman.svg";
+import Man from "../../assets/SmilingMan.svg";
+import Frame1 from "../../assets/Frame 535.svg";
+import Hand from "../../assets/Hands1.svg";
+import Star from "../../assets/Star2.svg";
+import Key from "../../assets/Key.svg";
+import Human from "../../assets/Human.svg";
+import House from "../../assets/House.svg";
+import Library from "../../assets/Library.svg";
+import Computer from "../../assets/Computer.svg";
+import Field from "../../assets/Field.svg";
+import Break from "../Break";
+import Break1 from "../Break1";
+import Break2 from "../Break2";
+import Button from "../Button";
+import Session3 from "./Session3";
 
-const MainContent = () => {
+const Session4 = () => {
   return (
     <main>
-      <About />
+      <Session3 />
       <div className="  max-sm:px-2">
         <div className=" flex justify-between mt-6">
           <div className="image1 small-s md:w-1/2 relative">
@@ -192,4 +192,4 @@ const MainContent = () => {
   );
 };
 
-export default MainContent;
+export default Session4;

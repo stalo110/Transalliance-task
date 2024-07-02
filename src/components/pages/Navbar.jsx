@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Frame from "../assets/Frame 01.svg";
+import Frame from "../../assets/Frame 01.svg";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
